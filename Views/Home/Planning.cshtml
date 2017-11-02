@@ -1,0 +1,27 @@
+@using wedding.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model wedding.Models.PlanningViewModel
+
+<form asp-controller = "Home" asp-action="create" method = "POST">
+    <h5>
+        <label asp-for="bride"></label>
+        <input asp-for="bride"/>
+        <span asp-validation-for="bride"></span>
+    </h5>
+    <h5>        
+        <label asp-for="groom"></label>
+        <input asp-for="groom"/>
+        <span asp-validation-for="groom"></span>
+    </h5>
+    <h5>        
+        <label asp-for="address"></label>
+        <input asp-for="address"/>
+        <span asp-validation-for="address"></span>
+    </h5>
+    <h5>        
+        <label asp-for="date"></label>
+        <input asp-for="date"/>
+        <span asp-validation-for="date"></span>
+    </h5>
+    <button type="submit">Let's Plan</button>
+</form>

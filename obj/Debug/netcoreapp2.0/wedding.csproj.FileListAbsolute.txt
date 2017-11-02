@@ -1,0 +1,10 @@
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\obj\Debug\netcoreapp2.0\wedding.csproj.CoreCompileInputs.cache
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\obj\Debug\netcoreapp2.0\wedding.AssemblyInfoInputs.cache
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\obj\Debug\netcoreapp2.0\wedding.AssemblyInfo.cs
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\bin\Debug\netcoreapp2.0\wedding.deps.json
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\bin\Debug\netcoreapp2.0\wedding.runtimeconfig.json
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\bin\Debug\netcoreapp2.0\wedding.runtimeconfig.dev.json
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\bin\Debug\netcoreapp2.0\wedding.dll
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\bin\Debug\netcoreapp2.0\wedding.pdb
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\obj\Debug\netcoreapp2.0\wedding.dll
+C:\Users\marym\Documents\Dojo\netCore\ClassRepo\wedding\obj\Debug\netcoreapp2.0\wedding.pdb

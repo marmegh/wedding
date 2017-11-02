@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@using wedding.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@model wedding.Models.LogReg
+
+@if(@ViewBag.errors == null)
+{
+    <h1>Wedding Planning</h1>
+}
+@if(@ViewBag.errors != null)
+{
+    <ul>
+        <li>@ViewBag.errors</li>
+    </ul>
+}
+
+<form asp-controller = "Home" asp-action="login" method = "POST">
+    <h5>
+        <label asp-for="login.lemail"></label>
+        <input asp-for="login.lemail"/>
+        <span asp-validation-for="login.lemail"></span>
+    </h5>
+    <h5>        
+        <label asp-for="login.pwd"></label>
+        <input asp-for="login.pwd"/>
+        <span asp-validation-for="login.pwd"></span>
+    </h5>
+    <button type="submit">Login</button>
+</form>
+
+<form asp-controller = "Home" asp-action="register" method = "POST">
+    <h5>
+        <label asp-for="reg.first"></label>
+        <input asp-for="reg.first"/>
+        <span asp-validation-for="reg.first"></span>
+    </h5>
+    <h5>
+        <label asp-for="reg.last"></label>
+        <input asp-for="reg.last"/>
+        <span asp-validation-for="reg.last"></span>
+    </h5>
+    <h5>
+        <label asp-for="reg.email"></label>
+        <input asp-for="reg.email"/>
+        <span asp-validation-for="reg.email"></span>
+    </h5>
+    <h5>        
+        <label asp-for="reg.password"></label>
+        <input asp-for="reg.password"/>
+        <span asp-validation-for="reg.password"></span>
+    </h5>
+    <h5>        
+        <label asp-for="reg.PWC"></label>
+        <input asp-for="reg.PWC"/>
+        <span asp-validation-for="reg.PWC"></span>
+    </h5>
+    <button type="submit">Create New Account</button>
+</form>

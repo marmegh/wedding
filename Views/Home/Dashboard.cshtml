@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+<div class="container">
+  <h2>Basic Table</h2>
+  <p>The .table class adds basic styling (light padding and only horizontal dividers) to a table:</p>            
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Wedding</th>
+        <th>Date</th>
+        <th>Guests</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+        @foreach(var wedding in @ViewBag.weddings)
+        {
+            <tr>
+                <td><a href="/display/@wedding.ID">@wedding.bride and @wedding.groom</a></td>
+                <td>@wedding.date</td>
+                <td>@wedding.address</td>
+            </tr>
+        }
+    </tbody>
+  </table>
+</div>
